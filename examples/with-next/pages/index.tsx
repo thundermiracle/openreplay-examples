@@ -4,7 +4,11 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 import styles from "../styles/Home.module.css";
 
-const Home: NextPage = () => {
+type Props = {
+  userId: string;
+};
+
+const Home: NextPage<Props> = ({ userId }) => {
   return (
     <div className={styles.container}>
       <Head>
@@ -18,6 +22,7 @@ const Home: NextPage = () => {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
+        <p>Your userId is [{userId}]</p>
         <p className={styles.description}>
           Get started by editing <code className={styles.code}>pages/index.tsx</code>
         </p>
