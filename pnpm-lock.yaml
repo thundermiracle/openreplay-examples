@@ -76,10 +76,35 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2
       typescript: 4.5.2
+      uuid: ^8.3.2
     dependencies:
       next: 12.0.4_react-dom@17.0.2+react@17.0.2
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
+      uuid: 8.3.2
+    devDependencies:
+      '@types/node': 16.11.10
+      '@types/react': 17.0.36
+      eslint: 7.32.0
+      eslint-config-next: 12.0.4_97474a4dbadaeb5c2c29b7d438fbde20
+      typescript: 4.5.2
+
+  examples/with-next-dynamic-import:
+    specifiers:
+      '@types/node': 16.11.10
+      '@types/react': 17.0.36
+      eslint: '7'
+      eslint-config-next: 12.0.4
+      next: 12.0.4
+      react: 17.0.2
+      react-dom: 17.0.2
+      typescript: 4.5.2
+      uuid: ^8.3.2
+    dependencies:
+      next: 12.0.4_react-dom@17.0.2+react@17.0.2
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+      uuid: 8.3.2
     devDependencies:
       '@types/node': 16.11.10
       '@types/react': 17.0.36

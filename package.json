@@ -15,7 +15,8 @@
   "description": "examples of how to use OpenReplay",
   "scripts": {
     "dev:cra": "pnpm run start --filter with-create-react-app",
-    "dev:next": "pnpm run dev --filter with-next"
+    "dev:next": "pnpm run dev --filter with-next",
+    "dev:next:di": "pnpm run dev --filter with-next-dynamic-import"
   },
   "devDependencies": {
     "@openreplay/tracker": "^3.4.7",

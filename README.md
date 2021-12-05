@@ -28,6 +28,11 @@ pnpm i
     ```shell
     pnpm dev:next
     ```
+3. Start example of using OpenReplay in `Next.js` by [dynamic import](https://nextjs.org/docs/advanced-features/dynamic-import#with-no-ssr):
+
+    ```shell
+    pnpm dev:next:di
+    ```
 ## License
 
 This project is licensed under the terms of the [MIT license](/LICENSE).
